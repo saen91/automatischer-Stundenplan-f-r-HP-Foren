@@ -9,7 +9,7 @@ Profilfeld für Kursbelegung
 
 In der Member_profil folgendes einfügen:
 
-ganzoben:
+ganzoben:<br>
 <?php
 eval("\$stundenplan = \"".$templates->get("profile_stundenplan")."\";");
 ?>
@@ -18,12 +18,12 @@ variable:
 {$stundenplan}
 
 Die hier aufgeführten tpls sind in die globalen Templates einzufügen:
-profile_stundenplan
+profile_stundenplan<br><br>
 
-stundenplan _eins
-stundenplan_zwei
-stundenplan _drei
-stundenplan_vier
-stundenplan_fuenf
-stundenplan_sechs
-stundenplan_sieben
+stundenplan_eins<br>
+stundenplan_zwei<br>
+stundenplan_drei<br>
+stundenplan_vier<br>
+stundenplan_fuenf<br>
+stundenplan_sechs<br>
+stundenplan_sieben<br>

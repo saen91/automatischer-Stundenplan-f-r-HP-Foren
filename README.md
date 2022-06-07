@@ -18,8 +18,7 @@ variable:<br>
 {$stundenplan}
 
 Die hier aufgeführten tpls sind in die globalen Templates einzufügen:<br>
-profile_stundenplan<br><br>
-
+profile_stundenplan<br>
 stundenplan_eins<br>
 stundenplan_zwei<br>
 stundenplan_drei<br>

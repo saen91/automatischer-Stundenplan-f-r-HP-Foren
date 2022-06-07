@@ -1,0 +1,95 @@
+Hier bitte die fid mit der aus deinem "Unterrichtsfach" austauschen. 
+Bitte daran denken, was hinter der fid in '' steht muss GENAU SO als Auswahl im Profilfeld vorhanden sein.
+
+<table style="width:100%">
+
+  <tr>
+		<td></td>
+		<td><h2>Montag</h2></td>                
+		<td><h2>Dienstag</h2></td>
+		<td><h2>Mittwoch</h2></td>
+		<td><h2>Donnerstag</h2></td>
+		<td><h2>Freitag</h2></td>
+	</tr>
+  
+	<tr>
+		<td><b>7:30-8:45</b></td>
+		<td><i>Frühstück</i></td>
+		<td><i>Frühstück</i></td>
+		<td><i>Frühstück</i></td>
+		<td><i>Frühstück</i></td>
+		<td><i>Frühstück</i></td>
+	 </tr>
+	
+	<tr>
+		<td><b>9:00-10:00</b></td>
+		<td><if  strpos  ($userfields['fid37'], 'Alte Runen') !== false then>Alte Runen<else>-</if></td>               
+		<td><if strpos($userfields['fid37'], 'Zaubertränke') !== false &&  $userfields['fid8']=="Gryffindor" OR  $userfields['fid8']=="Slytherin"  then>Zaubertränke (G+S)<else><if strpos($userfields['fid37'], 'Zauberkunst') !== false &&  $userfields['fid8']=="Hufflepuff" OR  $userfields['fid8']=="Ravenclaw"  then>Zauberkunst (H&R)<else>-</if></if></td>
+		<td><if  strpos  ($userfields['fid37'], 'Arithmantik') !== false then>Arithmantik<else>-</if></td>  
+		<td><if strpos($userfields['fid37'], 'Zaubertränke') !== false &&  $userfields['fid8']=="Gryffindor" OR  $userfields['fid8']=="Slytherin"  then>Zaubertränke (G+S)<else><if strpos($userfields['fid37'], 'Zauberkunst') !== false &&  $userfields['fid8']=="Hufflepuff" OR  $userfields['fid8']=="Ravenclaw"  then>Zauberkunst (H&R)<else>-</if></if></td>
+		<td><if  strpos  ($userfields['fid37'], 'Pflege magischer Geschöpfe') !== false then>PmG<else>-</if></td>  
+	</tr>
+ 
+	 <tr>
+			<td><b>10:15-11:15</b></td>
+		 <td><if strpos($userfields['fid37'], 'Geschichte der Zauberei') !== false &&  $userfields['fid8']=="Ravenclaw" OR  $userfields['fid8']=="Slytherin"  then>GdZ (R+S) <else><if strpos($userfields['fid37'], 'Verteidigung gegen die dunklen Künste') !== false &&  $userfields['fid8']=="Hufflepuff" OR  $userfields['fid8']=="Gryffindor"  then>VgddK (H+G)<else>-</if></if></td>
+		 <td><if strpos($userfields['fid37'], 'Kräuterkunde') !== false &&  $userfields['fid8']=="Hufflepuff" OR  $userfields['fid8']=="Slytherin"  then>Kräuterkunde (H+S) <else><if strpos($userfields['fid37'], 'Verwandlung') !== false &&  $userfields['fid8']=="Gryffindor" OR  $userfields['fid8']=="Ravenclaw"  then>Verwandlung (G+R)<else>-</if></if></td>
+		<td><if strpos($userfields['fid37'], 'Geschichte der Zauberei') !== false &&  $userfields['fid8']=="Ravenclaw" OR  $userfields['fid8']=="Slytherin"  then>GdZ (R+S) <else><if strpos($userfields['fid37'], 'Verteidigung gegen die dunklen Künste') !== false &&  $userfields['fid8']=="Hufflepuff" OR  $userfields['fid8']=="Gryffindor"  then>VgddK (H+G)<else>-</if></if></td>
+		<td><if strpos($userfields['fid37'], 'Zauberkunst') !== false &&  $userfields['fid8']=="Gryffindor" OR  $userfields['fid8']=="Slytherin"  then>Zauberkunst (G+S) <else><if strpos($userfields['fid37'], 'Zaubertränke') !== false &&  $userfields['fid8']=="Hufflepuff" OR  $userfields['fid8']=="Ravenclaw"  then>Zaubertränke (H+R)<else>-</if></if></td>
+		<td><if  strpos  ($userfields['fid37'], 'Wahrsagen') !== false then>Wahrsagen<else>-</if></td>  
+	 </tr>
+
+	<tr>
+		<td><b>11:45-12:45</b></td>
+		<td><i>Mittagessen</i></td>
+		<td><i>Mittagessen</i></td>
+		<td><i>Mittagessen</i></td>
+		<td><i>Mittagessen</i></td>
+		<td><i>Mittagessen</i></td>
+	 </tr>
+	
+	<tr>
+		<td><b>13:00-14:00</b></td>
+		<td><if strpos($userfields['fid37'], 'Geschichte der Zauberei') !== false &&  $userfields['fid8']=="Hufflepuff" OR  $userfields['fid8']=="Gryffindor"  then>GdZ (H+G) <else><if strpos($userfields['fid37'], 'Verteidigung gegen die dunklen Künste') !== false &&  $userfields['fid8']=="Ravenclaw" OR  $userfields['fid8']=="Slytherin"  then>VgddK (R+S)<else>-</if></if></td>
+		<td><if strpos($userfields['fid37'], 'Kräuterkunde') !== false &&  $userfields['fid8']=="Gryffindor" OR  $userfields['fid8']=="Ravenclaw"  then>Kräuterkunde (G+R) <else><if strpos($userfields['fid37'], 'Verwandlung') !== false &&  $userfields['fid8']=="Slytherin" OR  $userfields['fid8']=="Hufflepuff"  then>Verwandlung (H+S)<else>-</if></if></td>
+		<td><if strpos($userfields['fid37'], 'Geschichte der Zauberei') !== false &&  $userfields['fid8']=="Hufflepuff" OR  $userfields['fid8']=="Gryffindor"  then>GdZ (H+G) <else><if strpos($userfields['fid37'], 'Verteidigung gegen die dunklen Künste') !== false &&  $userfields['fid8']=="Ravenclaw" OR  $userfields['fid8']=="Slytherin"  then>VgddK (R+S)<else>-</if></if></td>
+		<td><if  strpos   ($userfields['fid37'], 'Alte Runen') !== false then>Alte Runen<else>-</if></td>  
+		<td><if  strpos   ($userfields['fid37'], 'Muggelkunde') !== false then>Muggelkunde<else>-</if></td>  
+	</tr>
+
+	<tr>
+		<td><b>14:15-15:15</b></td>
+		<td><if  strpos  ($userfields['fid37'], 'Pflege magischer Geschöpfe') !== false then>PmG<else>-</if></td>  
+		<td><if  strpos ($userfields['fid37'], 'Muggelkunde') !== false then>Muggelkunde<else>-</if></td> 
+		<td><if  strpos   ($userfields['fid37'], 'Wahrsagen') !== false then>Wahrsagen<else>-</if></td>  
+		<td>-</td>
+		<td><if strpos($userfields['fid37'], 'Kräuterkunde') !== false &&  $userfields['fid8']=="Gryffindor" OR  $userfields['fid8']=="Ravenclaw"  then>Kräuterkunde (G+R) <else><if strpos($userfields['fid37'], 'Verwandlung') !== false &&  $userfields['fid8']=="Slytherin" OR  $userfields['fid8']=="Hufflepuff"  then>Verwandlung (H+S)<else>-</if></if></td>
+	</tr>
+
+	<tr>
+		<td><b>15:30:-16:30</b></td>
+		<td><if  strpos  ($userfields['fid37'], 'Arithmantik') !== false then>Arithmantik<else>-</if></td>  
+		<td><if strpos($userfields['fid37'], 'Zauberkunst') !== false &&  $userfields['fid8']=="Gryffindor" OR  $userfields['fid8']=="Slytherin"  then>Zauberkunst (G+S) <else><if strpos($userfields['fid37'], 'Zaubertränke') !== false &&  $userfields['fid8']=="Hufflepuff" OR  $userfields['fid8']=="Ravenclaw"  then>Zaubertränke (H+R)<else>-</if></if></td>
+		<td>-</td>
+		<td>-</td>
+		<td><if strpos($userfields['fid37'], 'Kräuterkunde') !== false &&  $userfields['fid8']=="Hufflepuff" OR  $userfields['fid8']=="Slytherin"  then>Kräuterkunde (H+S) <else><if strpos($userfields['fid37'], 'Verwandlung') !== false &&  $userfields['fid8']=="Ravenclaw" OR  $userfields['fid8']=="Gryffindor"  then>Verwandlung (G+R)<else>-</if></if></td>
+	</tr>
+
+	<tr>
+		<td><b>18:00-19:30</b></td>
+		<td><i>Abendessen</i></td>
+		<td><i>Abendessen</i></td>
+		<td><i>Abendessen</i></td>
+		<td><i>Abendessen</i></td>
+		<td><i>Abendessen</i></td>
+	 </tr>
+
+	<tr>
+		<td><b>20:00-22:00</b></td>
+		<td>-</td>
+		<td><if strpos($userfields['fid37'], 'Astronomie') !== false &&  $userfields['fid8']=="Hufflepuff" OR  $userfields['fid8']=="Slytherin"  then>Astronomie (H+S) <else>-</if></td>
+		<td><if strpos($userfields['fid37'], 'Astronomie') !== false &&  $userfields['fid8']=="Ravenclaw" OR  $userfields['fid8']=="Gryffindor"  then>Astronomie (R+G)<else>-</if></td>
+	</tr>
+</table>
+<br><br>
+<center>Schüler der 5. Klasse müssen <b>ab 21:00 Uhr</b> in ihren Gemeinschaftsräumen sein. </center>

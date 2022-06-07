@@ -12,9 +12,9 @@ In der Member_profil folgendes einfügen:
 ganzoben:<br>
 <?php
 eval("\$stundenplan = \"".$templates->get("profile_stundenplan")."\";");
-?>
+?><br>
 
-variable:
+variable:<br>
 {$stundenplan}
 
 Die hier aufgeführten tpls sind in die globalen Templates einzufügen:

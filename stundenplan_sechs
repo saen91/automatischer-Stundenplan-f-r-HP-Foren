@@ -1,0 +1,97 @@
+Hier bitte die fid mit der aus deinem "Unterrichtsfach" austauschen. 
+Bitte daran denken, was hinter der fid in '' steht muss GENAU SO als Auswahl im Profilfeld vorhanden sein.
+
+<table style="width:100%">
+
+	<tr>
+		<td></td>
+		<td><h2>Montag</h2></td>                
+		<td><h2>Dienstag</h2></td>
+		<td><h2>Mittwoch</h2></td>
+		<td><h2>Donnerstag</h2></td>
+		<td><h2>Freitag</h2></td>
+	</tr>
+	
+	<tr>
+		<td><b>7:30-8:45</b></td>
+		<td><i>Frühstück</i></td>
+		<td><i>Frühstück</i></td>
+		<td><i>Frühstück</i></td>
+		<td><i>Frühstück</i></td>
+		<td><i>Frühstück</i></td>
+	 </tr>
+  
+	<tr>
+		<td>9:00-10:00</td>
+		<td><if  strpos   ($userfields['fid37'], 'Muggelkunde') !== false then>Muggelkunde<else>-</if></td>               
+		<td><if  strpos   ($userfields['fid37'], 'Alte Runen') !== false then>Alte Runen<else>-</if></td>  
+		<td><if  strpos  ($userfields['fid37'], 'Pflege magischer Geschöpfe') !== false then>PmG<else>-</if></td> 
+		<td><if  strpos   ($userfields['fid37'], 'Kräuterkunde') !== false then>Kräuterkunde<else>-</if></td>
+		<td><if  strpos   ($userfields['fid37'], 'Geschichte der Zauberei') !== false then>GdZ<else>-</if></td> 
+	</tr>
+ 
+	<tr>
+		<td>10:15-11:15</td>
+		<td><if  strpos  ($userfields['fid37'], 'Arithmantik') !== false then>Arithmantik<else>-</if></td>                 
+		<td><if  strpos   ($userfields['fid37'], 'Geschichte der Zauberei') !== false then>GdZ<else>-</if></td> 
+		<td><if  strpos  ($userfields['fid37'], 'Verwandlung') !== false then>Verwandlung<else>-</if></td>  
+		<td><if  strpos ($userfields['fid37'], 'Verteidigung gegen die dunklen Künste') !== false then>VgddK<else>-</if></td>   
+		<<td><if  strpos  ($userfields['fid37'], 'Verwandlung') !== false then>Verwandlung<else>-</if></td>  
+	</tr>
+
+	<tr>
+		<td><b>11:45-12:45</b></td>
+		<td><i>Mittagessen</i></td>
+		<td><i>Mittagessen</i></td>
+		<td><i>Mittagessen</i></td>
+		<td><i>Mittagessen</i></td>
+		<td><i>Mittagessen</i></td>
+	 </tr>
+	
+	<tr>
+		<td>13:00-14:00</td>
+		<td><if  strpos   ($userfields['fid37'], 'Kräuterkunde') !== false then>Kräuterkunde<else>-</if></td>
+		<td><if  strpos   ($userfields['fid37'], 'Wahrsagen') !== false then>Wahrsagen<else>-</if></td>  
+		<td><if  strpos  ($userfields['fid37'], 'Arithmantik') !== false then>Arithmantik<else>-</if></td> 
+		<td><if  strpos ($userfields['fid37'], 'Zaubertränke') !== false then>Zaubertränke<else>-</if></td>  
+		<td><if  strpos  ($userfields['fid37'], 'Zauberkunst') !== false then>Zauberkunst<else>-</if></td>  
+	</tr>
+
+	<tr>
+		<td>14:15-15:15</td>
+		<td><if  strpos ($userfields['fid37'], 'Verteidigung gegen die dunklen Künste') !== false then>VgddK<else>-</if></td>   
+		<td><if  strpos ($userfields['fid37'], 'Zaubertränke') !== false then>Zaubertränke<else>-</if></td>  
+		<td><if  strpos  ($userfields['fid37'], 'Zauberkunst') !== false then>Zauberkunst<else>-</if></td>  
+		<td><if  strpos   ($userfields['fid37'], 'Muggelkunde') !== false then>Muggelkunde<else>-</if></td>  
+		<td><if  strpos  ($userfields['fid37'], 'Pflege magischer Geschöpfe') !== false then>PmG<else>-</if></td> 
+	</tr>
+
+	<tr>
+		<td>15:30:-16:30</td>
+		<td>-</td>
+		<td>-</td>
+		<td>-</td>
+		<td><if  strpos   ($userfields['fid37'], 'Wahrsagen') !== false then>Wahrsagen<else>-</if></td>  
+		<td><if  strpos   ($userfields['fid37'], 'Alte Runen') !== false then>Alte Runen<else>-</if></td>  
+	</tr>
+
+	<tr>
+		<td><b>18:00-19:30</b></td>
+		<td><i>Abendessen</i></td>
+		<td><i>Abendessen</i></td>
+		<td><i>Abendessen</i></td>
+		<td><i>Abendessen</i></td>
+		<td><i>Abendessen</i></td>
+	 </tr>
+	
+	<tr>
+	<td>00:00-02:00</td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td><if  strpos   ($userfields['fid37'], 'Astronomie') !== false then>Astronomie<else>-</if></td>  
+	</tr>
+</table>
+
+<center>Schüler der 6. Klasse müssen <b>ab 21:00 Uhr</b> in ihren Gemeinschaftsräumen sein. </center>

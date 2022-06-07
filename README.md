@@ -17,7 +17,7 @@ eval("\$stundenplan = \"".$templates->get("profile_stundenplan")."\";");
 variable:<br>
 {$stundenplan}
 
-Die hier aufgeführten tpls sind in die globalen Templates einzufügen:
+Die hier aufgeführten tpls sind in die globalen Templates einzufügen:<br>
 profile_stundenplan<br><br>
 
 stundenplan_eins<br>

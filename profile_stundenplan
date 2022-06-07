@@ -1,0 +1,19 @@
+Hier bitte die FID von deinen Jahrgängen angeben. Bitte darauf achten, dass die Bezeichnung der im Profilfeld gleich sein muss. 
+7. Jahrgang sollte GENAU SO auch in deinem Profilfeld als Auswahl vorhanden sein, oder du musst es auch anpassen 
+
+
+<?php
+eval("\$siebtes = \"".$templates->get("stundenplan_sieben")."\";");
+eval("\$sechstes = \"".$templates->get("stundenplan_sechs")."\";");
+eval("\$fuenftes = \"".$templates->get("stundenplan_fuenf")."\";");
+eval("\$viertes = \"".$templates->get("stundenplan_vier")."\";");
+eval("\$drittes = \"".$templates->get("stundenplan_drei")."\";");
+eval("\$zweites = \"".$templates->get("stundenplan_zwei")."\";");
+eval("\$erstes = \"".$templates->get("stundenplan_eins")."\";");
+?>
+
+<center><h1>Stundenplan</h1></center>
+
+<if  strpos ($userfields['fid27'], '7. Jahrgang') !== false then>{$siebtes}<else><if  strpos ($userfields['fid27'], '6. Jahrgang') !== false then>{$sechstes}<else><if  strpos ($userfields['fid27'], '5. Jahrgang') !== false then>{$fuenftes}<else><if  strpos ($userfields['fid27'], '4. Jahrgang') !== false then>{$viertes}<else><if  strpos ($userfields['fid27'], '3. Jahrgang') !== false then>{$drittes}<else><if  strpos ($userfields['fid27'], '2. Jahrgang') !== false then>{$zweites}<else><if  strpos ($userfields['fid27'], '1. Jahrgang') !== false then>{$erstes}<else>
+
+</if></if></if></if></if></if></if>

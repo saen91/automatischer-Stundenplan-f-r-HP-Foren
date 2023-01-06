@@ -9,7 +9,7 @@ Profilfeld für Kursbelegung
 
 In der Member_profil folgendes einfügen:
 
-ganzoben:<br>
+ganz oben:<br>
 <?php
 eval("\$stundenplan = \"".$templates->get("profile_stundenplan")."\";");
 ?><br>
